@@ -1,3 +1,4 @@
 logs/*.log
 venv/
 .idea/
+sample_models/word2vec/*

@@ -9,6 +9,7 @@ $ source venv/bin/activate
 (venv)  pip install --upgrade pip
 (venv)  pip install --upgrade gensim
 (venv)  pip install python-Levenshtein
+(venv)  pip install janome
 (venv)  deactivate
 ```
 
@@ -27,6 +28,16 @@ https://www.youtube.com/watch?v=9Gih75Ujsq8
 http://blog.hassaku-labs.com/post/pretrained-word2vec/
 ※「entity_vector.model.bin」をダウンロードする
 ```
+
+## doc2vecを勉強
+
+### doc2vecの概要
+Doc2Vecは任意の長さの文章を固定長のベクトルに変換する技術 by qiita（https://qiita.com/g-k/items/5ea94c13281f675302ca）
+
+### 勉強法について
+青空文庫にある小説を使ってモデルを作り検証します。
+https://www.aozora.gr.jp/cards/000148/files/794_ruby_4237.zip
+
 
 
 

@@ -4,7 +4,7 @@
 
 # 読み込み
 from gensim.models import KeyedVectors
-model = KeyedVectors.load_word2vec_format('./sample_models/word2vec/entity_vector/entity_vector.model.bin',binary=True)
+model = KeyedVectors.load_word2vec_format('./data/word2vec/entity_vector/entity_vector.model.bin',binary=True)
 
 # 単語のベルトル化
 # OUTPUT:
